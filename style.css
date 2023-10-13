@@ -226,7 +226,19 @@ footer {
 
 
 
+@media(max-width : 576px) {
+    #embed_yt {
+        max-height: 100%;
+        max-width: 100%;
+    }
 
+    #me_icon {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+
+}
 
 
 
@@ -235,6 +247,12 @@ footer {
     .card .img-fit {
         aspect-ratio: 1.45 / 1;
     }
+
+    #me_icon {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
 
 }
 
@@ -397,12 +415,6 @@ footer {
 
 }
 
-@media(max-width : 576px) {
-    #embed_yt {
-        max-height: 100%;
-        max-width: 100%;
-    }
-}
 
 
 
